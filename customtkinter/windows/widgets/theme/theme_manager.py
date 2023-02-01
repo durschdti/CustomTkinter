@@ -7,7 +7,7 @@ from typing import List, Union
 class ThemeManager:
 
     theme: dict = {}  # contains all the theme data
-    _built_in_themes: List[str] = ["blue", "green", "dark-blue", "sweetkind"]
+    _built_in_themes: List[str] = ["blue", "green", "dark-blue", "sweetkind", "red"]
     _currently_loaded_theme: Union[str, None] = None
 
     @classmethod
